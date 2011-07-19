@@ -1,8 +1,11 @@
-* ruby-wiki
+# ruby-wiki
+
+## Motivation
 This repository is made to
 check the ruby specification which may
 be easy to be misunderstood.
 
+## Lisence
 The codes are all free and reusable,
 which means I do not proclaim any rights against
 codes and even documents wholly within this repo.
