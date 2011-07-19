@@ -1,0 +1,13 @@
+def shell(x)
+  task x do
+    puts "shell is about to work."
+    sh x
+  end 
+  return x
+end
+
+sh "tree ."
+
+task "all" => shell("ls") do
+  puts "complete"
+end
